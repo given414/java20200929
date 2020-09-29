@@ -1,4 +1,4 @@
-package variable.copy;
+package chap02.variable;
 
 public class VariableScope {
 	public static void main(String[] args) {

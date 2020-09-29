@@ -1,4 +1,4 @@
-package variable;
+package chap02.variable;
 
 public class Variable {
 	public static void main(String[] args) {
