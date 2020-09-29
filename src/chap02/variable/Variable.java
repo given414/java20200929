@@ -2,9 +2,10 @@ package chap02.variable;
 
 public class Variable {
 	public static void main(String[] args) {
-		var myVar;
-		myVar = 30;
-		myVar = "hello";
+		// javascript
+//		var myVar;
+//		myVar = 30;
+//		myVar = "hello";
 		
 		//java 변수를 선언할 때 타입을 결정해줘야함.
 		//변수의 선언
@@ -15,6 +16,8 @@ public class Variable {
 		System.out.println(myVar);
 		
 		int myVar2 = 5;
+		
+		System.out.println(myVar2);
 		
 	}
 }
