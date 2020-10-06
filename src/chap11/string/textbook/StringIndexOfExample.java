@@ -1,4 +1,4 @@
-package chap11.strings.textbook;
+package chap11.string.textbook;
 
 public class StringIndexOfExample {
 	public static void main(String[] args) {
