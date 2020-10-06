@@ -53,9 +53,9 @@ public class WarmUp1 {
 	
 	
 	public String notString(String str) {
-		int ind = str.indexOf("not");
+		int ind = str.indexOf("not"); //indexOf는 문자열에서 위치를 찾아주는 역할
 		
-		if (ind !=0) {
+		if (ind !=0) {  // not이 존재하지 않으면
 			String res = "not" + str;
 			return res;
 		}
