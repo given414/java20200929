@@ -16,13 +16,29 @@ public class Exercise07 {
 			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
 			System.out.println("-------------------------");
 			System.out.println("선택 > ");
-			String line = scanner.nextLine();
 			
-			System.out.println("-------------------------");
-			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
-			System.out.println("-------------------------");
-			System.out.println("선택 > ");
-			System.out.println(line);
+			String c = scanner.nextLine();
+			
+			switch (c) {
+			case "1":
+				System.out.println("예금액>");
+				String moneyStr1 = scanner.nextLine();
+				int money1 = Integer.valueOf(moneyStr1);
+				balance = balance + money1;
+				break;
+			case "2":
+				System.out.println("출금액>");
+				String moneyStr2 = scanner.nextLine();
+				int money2 = Integer.valueOf(moneyStr2);
+				balance = balance - money2;
+				break;
+			case "3":
+				System.out.println("잔고>"+ balance);
+				break;
+			case "4":
+				run = false;
+				break;
+			}
 		
 		}
 		
