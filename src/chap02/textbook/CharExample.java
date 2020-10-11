@@ -10,7 +10,7 @@ public class CharExample {
 		char c5 = 44032;	//10진수로 저장
 		char c6 = '\uac00';	//16진수로 저장
 		
-		int uniCode = c1;	//유니코드로 얻기
+		int uniCode = c1;	//유니코드로give 얻기
 		
 		System.out.println(c1);
 		System.out.println(c2);
