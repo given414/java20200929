@@ -14,7 +14,7 @@ public class MyClass {
 	}
 	
 	void method2() {
-		method1();
+		this.method1();
 	}
 
 }

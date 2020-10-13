@@ -2,14 +2,15 @@ package chap06.lecture.thisKeyword;
 
 public class MyApp {
 	public static void main(String[] args) {
-		MyClass o1 = new MyClass();
+		MyClass o1 = new MyClass(3);
 		o1.var = 3;
 		o1.method1();
 		
-		System.out.println("----------------");
+		System.out.println("----------");
+		
 		o1.method2();
 		
-		MyClass o2 = new MyClass();
+		MyClass o2 = new MyClass(9);
 		o2.var = 9;
 		o2.method2();
 	}
