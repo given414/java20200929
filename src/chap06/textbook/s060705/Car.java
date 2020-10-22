@@ -9,14 +9,13 @@ public class Car {
 	
 	//생성자
 	Car() {
-		
 	}
 	
 	Car(String model) {
 		this(model, "은색", 250);
 	}
 	
-	Car(String model, String color) {
+	Car(String model,String color){
 		this(model, color, 250);
 	}
 	
@@ -25,5 +24,4 @@ public class Car {
 		this.color = color;
 		this.maxSpeed = maxSpeed;
 	}
-
 }

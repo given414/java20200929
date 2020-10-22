@@ -9,6 +9,7 @@ public class Car {
 	
 	//생성자
 	Car() {
+		
 	}
 	
 	Car(String model) {
@@ -25,5 +26,4 @@ public class Car {
 		this.color = color;
 		this.maxSpeed = maxSpeed;
 	}
-	
 }

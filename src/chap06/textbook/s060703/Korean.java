@@ -10,7 +10,5 @@ public class Korean {
 	public Korean(String n, String s) {
 		name = n;
 		ssn = s;
-		
 	}
-
 }
