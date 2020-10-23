@@ -7,7 +7,7 @@ public class ContainerExample {
 		String str = container1.get();
 		
 		Container<Integer> container2 = new Container<Integer>();
-		container2.set("6");
+		container2.set(6);
 		int value = container2.get();
 	}
 }

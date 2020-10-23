@@ -1,15 +1,24 @@
 package chap13.textbook.exercise.p03;
 
-public class Container<N, A, J> {
-	private N name;
-	private A age;
-	private J job;
+public class Container<K, V> {
+	private K key;
+	private V value;
 	
-	public N getKey() { return this.name; }
-	public A getValue1() { return this.age; }
-	public J getValue2() { return this.job; }
+	public void set(K key, V value) {
+		// TODO Auto-generated method stub
+		this.key = key;
+		this.value = value;
+	}
+
+	public K getKey() {
+		// TODO Auto-generated method stub
+		return this.key;
+	}
+
+	public V getValue() {
+		// TODO Auto-generated method stub
+		return this.value;
+	}
 	
-	public void setKey(N name) { this.name = name; }
-	public void setValue1(A age) { this.age = age; }
-	public void setValue2(J job) { this.job = job; }
+
 }
