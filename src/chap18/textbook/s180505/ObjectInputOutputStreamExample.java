@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 
 public class ObjectInputOutputStreamExample {
 	public static void main(String[] args) throws Exception {
-		FileOutputStream fos = new FileOutputStream("Object.dat");
+		FileOutputStream fos = new FileOutputStream("object.dat");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		
 		oos.writeObject(new Integer(10));
@@ -19,7 +19,7 @@ public class ObjectInputOutputStreamExample {
 		oos.close();
 		fos.close();
 		
-		FileInputStream fis = new FileInputStream("Object.dat");
+		FileInputStream fis = new FileInputStream("object.dat");
 		ObjectInputStream ois = new ObjectInputStream(fis);
 		
 		Integer obj1 = (Integer) ois.readObject();
