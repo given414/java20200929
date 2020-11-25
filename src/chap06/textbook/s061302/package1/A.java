@@ -9,6 +9,6 @@ public class A {
 		//생성자
 		public A(boolean b) {}
 		A(int b) {}
-		private A(String s) {}
+		private A(String s) {} 
 		}
 
